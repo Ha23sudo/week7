@@ -6,3 +6,7 @@ def add_student(name):
 
 def remove_student(name):
    students.remove(name)
+
+def update_student(old_name, new_name):
+   index = students.index(old_name)
+   students[index] = new_name
